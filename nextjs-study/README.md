@@ -1,9 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CIX A React todo react (hyungchul, eunseok, heesoon)
 
-## Getting Started
+## 설치환경
+- node - 22.14.0 (lts)
+- nextJS - 15.3.2
+- sass - 10.9.2
+- Typescript
+- AppRouter
+- Turbopack
+- ESLint
 
-First, run the development server:
+## 세팅
+1. 노드버전 확인 (위 설치환경 참조)
+2. 처음 클론 받은 후 npm i 로 package 설치 (명령어 3.실행 참고)
 
+## 실행
 ```bash
 npm run dev
 # or
@@ -14,23 +24,8 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 브랜치 및 작업규칙
+- 메인브랜치는 <u>**main**</u> 브랜치로 한다
+- 메인브랜치 기준으로 각자의 이름으로 작업브랜치를 생성한다.
+- .gitignore에 등록할 디렉토리나 파일은 협의하여 main에 등록하고 각자 pull받아 사용한다.
+- 이외 공통 라이브러리 및 ESLint규칙도 역시 main에 저장 및 설치하고 package를 pull받아 사용한다.

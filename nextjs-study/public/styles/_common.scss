@@ -1,0 +1,3 @@
+@function fz($size: 16) {
+  @return clamp(10px, $size / 1200 * 100cqi, $size * 1px);
+}
