@@ -1,7 +1,20 @@
+@use "public/styles/common" as *;
+
 .List {
+  @include comp-style();
+  --comp-name: "List";
   display: flex;
   flex-direction: column;
+  min-height: 600px;
   gap: 20px;
+
+  &__summary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    font-size: 16px;
+  }
 }
 
 .List > input {

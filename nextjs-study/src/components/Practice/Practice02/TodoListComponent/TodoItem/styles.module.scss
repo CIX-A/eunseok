@@ -1,4 +1,9 @@
+@use "public/styles/common" as *;
+
+
 .TodoItem {
+  @include comp-style();
+  --comp-name: "TodoItem";
   display: flex;
   align-items: center;
   gap: 20px;
